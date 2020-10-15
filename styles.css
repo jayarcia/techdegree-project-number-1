@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #6633ff;
+  color: skyblue;
 }
 
 /* Section Styles */
@@ -72,6 +72,10 @@ header {
 
 header {
   line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
 }
 
 header .profile-image {
@@ -130,8 +134,23 @@ ul.skills {
   margin: 2px;
 }
 
+.otherskill li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #31adf5;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+  list-style: none;
+}
+
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+
+ol .otherskill {
+  list-style: inside;
 }
 
 footer {
@@ -225,6 +244,4 @@ a.social:hover {
 
 }
 
-h2 {
-  text-align: center;
-}
+/* second part of style.css file */
