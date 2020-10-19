@@ -206,6 +206,9 @@ footer {
   background-color: slategray;
   color: white;
   font-size: 25px;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+  overflow: hidden;
 }
 
 footer .copyright {
@@ -221,8 +224,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  margin-top: 2.5rem;
 }
+
+/* * Pseudo Classes  *******************************************/
+/* * Pseudo Classes  *******************************************/
+/* * Pseudo Classes  *******************************************/
 
 a.social {
   display: inline-block;
@@ -234,10 +240,6 @@ a.social {
   opacity: 0.4;
   transition: all 0.5s;
 }
-
-/* * Pseudo Classes  *******************************************/
-/* * Pseudo Classes  *******************************************/
-/* * Pseudo Classes  *******************************************/
 
 a.twitter {
   background-image: url(images/twitter.svg);
