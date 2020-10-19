@@ -1,0 +1,79 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css?family=Acme|Anton|Patua+One|Rubik|Rajdhani|Yellowtail");
+
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+/* ? VARIABLES **************************/
+:root {
+  --bggradient: linear-gradient(to right, black, slategray);
+  --Rajdhani: "Rajdhani", cursive;
+  --Rubik: "Rubik", cursive;
+}
+
+/* ? VARIABLES **************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #222;
+  background: linear-gradient(slategray, black);
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+/* Section Styles */
+
+/* * NAV BAR ----------------------------------------------------------------------------*/
+/* * NAV BAR ----------------------------------------------------------------------------*/
+/* * NAV BAR ----------------------------------------------------------------------------*/
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+  display: block;
+  margin-right: auto;
+  color: gray;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+  transition: all 0.5s;
+}
+
+.nav a:hover {
+  color: white;
+}
+/* ? NEW RULES  *********************/
