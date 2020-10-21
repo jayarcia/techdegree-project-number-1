@@ -207,15 +207,58 @@ main .flex .card {
 
 main h1 {
   color: white;
-  font-family: var(--Rajdhani);
+  font-family: var(--Rubik);
+  font-size: 2.5em;
+  margin-top: 1.5em;
+  border-style: none;
+  background: black;
+  height: 70px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 20%;
+  max-width: 600px;
+}
+
+.exp-main .exp {
+  color: white;
+  font-family: var(--Rubik);
+  font-size: 1.5em;
   margin-top: 2.5em;
-  border-style: solid;
-  border: turquoise;
+  border-style: none;
+  height: 50px;
+  text-align: center;
+}
+
+.ow-title .title-other {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: 80px;
 }
 
 main {
-  background: slategray;
+  margin-bottom: 5rem;
 }
+
+.title-other {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.image-style {
+  border: rgb(19, 105, 192);
+  border-style: solid;
+  max-width: 800px;
+}
+
+.gen-par {
+  color: white;
+  font-size: 1.2rem;
+}
+
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
