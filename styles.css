@@ -11,6 +11,7 @@
   --bggradient: linear-gradient(to right, black, slategray);
   --Rajdhani: "Rajdhani", cursive;
   --Rubik: "Rubik", cursive;
+  --background: linear-gradient(to bottom red, blue) no-repeat;
 }
 
 /* ? VARIABLES **************************/
@@ -21,7 +22,9 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: #222;
-  background: linear-gradient(slategray, black);
+  background: linear-gradient(slategray, black) no-repeat;
+
+  min-height: 100vh;
 }
 
 /* Link Styles */
@@ -113,6 +116,11 @@ header .profile-image:hover {
 
 /* ! CARDS *************************/
 
+.video-description {
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
 .flex .card h2 {
   font-family: var(--Rajdhani);
   font-weight: bolder;
@@ -193,27 +201,35 @@ div .card .otherskill li {
   text-align: center;
 }
 
+main .flex .card {
+  max-height: 50px;
+}
+
+main h1 {
+  color: white;
+  font-family: var(--Rajdhani);
+  margin-top: 2.5em;
+  border-style: solid;
+  border: turquoise;
+}
+
+main {
+  background: slategray;
+}
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
 /*  ? FOOTER 888888888888888888888888888888888888888888888888888888888888888888888*/
 
 footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
-  text-align: center;
-  height: 200px;
-  background-color: slategray;
-  color: white;
-  font-size: 25px;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-  overflow: hidden;
 }
 
 footer .copyright {
   top: -8px;
   font-size: 0.75em;
+  color: white;
 }
 
 footer ul {
@@ -224,6 +240,7 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+  margin-top: 2.5rem;
 }
 
 /* * Pseudo Classes  *******************************************/
@@ -234,9 +251,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 50px;
-  height: 50px;
-  background-size: 50px 50px;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
   opacity: 0.4;
   transition: all 0.5s;
 }
